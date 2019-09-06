@@ -167,7 +167,7 @@
 					},
 					{
 						"name": "CustomerID",
-						"type": "uniqueidentifier"
+						"type": "varchar"
 					},
 					{
 						"name": "LastName",
