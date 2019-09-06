@@ -18,6 +18,13 @@
 					"dataflow": {
 						"referenceName": "dataflow1",
 						"type": "DataFlowReference"
+					},
+					"staging": {
+						"linkedService": {
+							"referenceName": "ADLSGen2LinkedService",
+							"type": "LinkedServiceReference"
+						},
+						"folderPath": "staging"
 					}
 				}
 			}
