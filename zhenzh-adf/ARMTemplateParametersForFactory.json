@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "zhenzh-adf"
+		},
+		"ADLSGen2LinkedService_accountKey": {
+			"value": ""
+		},
+		"CloudSalesLinkedService_connectionString": {
+			"value": ""
+		},
+		"CloudSalesStreamingLinkedService_connectionString": {
+			"value": ""
+		},
+		"CosmosDbLinkedService_connectionString": {
+			"value": ""
+		},
+		"FileServer1_password": {
+			"value": ""
+		},
+		"ReportingDWLinkedService_connectionString": {
+			"value": ""
+		},
+		"SqlServerLinkedService_connectionString": {
+			"value": ""
+		},
+		"MovieSinkDataset_properties_typeProperties_fileName": {
+			"value": ""
+		},
+		"MovieSinkDataset_properties_typeProperties_folderPath": {
+			"value": "raw"
+		},
+		"ADLSGen2LinkedService_properties_typeProperties_url": {
+			"value": "https://zhenzhmdwstorage.dfs.core.windows.net"
+		},
+		"FileServer1_properties_typeProperties_host": {
+			"value": "C:\\"
+		},
+		"FileServer1_properties_typeProperties_userId": {
+			"value": "openhackadmin"
+		},
+		"FourthCoffeeSelfHostedIR_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/e139b3f3-760f-4d78-8ea1-8c713669b878/resourcegroups/petsahack-rg/providers/Microsoft.DataFactory/factories/petsahavtory/integrationruntimes/integrationRuntime1"
+		}
+	}
+}
