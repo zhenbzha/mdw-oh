@@ -1,0 +1,12 @@
+{
+	"name": "FourthCoffeeSelfHostedIR",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/e139b3f3-760f-4d78-8ea1-8c713669b878/resourcegroups/petsahack-rg/providers/Microsoft.DataFactory/factories/petsahavtory/integrationruntimes/integrationRuntime1",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}

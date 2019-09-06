@@ -1,0 +1,15 @@
+{
+	"name": "MovieDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CosmosDbLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DocumentDbCollection",
+		"typeProperties": {
+			"collectionName": "movies"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

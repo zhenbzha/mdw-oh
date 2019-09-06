@@ -1,0 +1,19 @@
+{
+	"name": "MovieSinkDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLSGen2LinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureBlobFSFile",
+		"typeProperties": {
+			"format": {
+				"type": "JsonFormat"
+			},
+			"fileName": "",
+			"folderPath": "raw"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
